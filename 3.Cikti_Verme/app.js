@@ -33,9 +33,28 @@
 // alert("F5 tuşuna lütfen basmayınız");
 
 
-console.log(window);
-console.error("Hata oluştu");
-console.log(location.port);
+// console.log(window);
+// console.error("Hata oluştu");
+// console.log(location.port);
+
+
+//YORUM SATIRI
+
+//Ali bak şurada şöyle yaptım buraya dikkat et
+// yorum satırı2
+// yorum satırı3
+
+
+
+/* BETTER COMMENTS 
+    ? Bu bir bilgilendirme yorumudur
+    ! Burası çok önemlidir dikkat et
+    TODO: Burası şöyle yapılması gerekiyor
+    *Test mesajıdır
+
+*/
+
+
 
 
 
