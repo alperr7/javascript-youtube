@@ -55,7 +55,15 @@
 
 // console.log(12%5);
 
-let a  = 10;
-a++;
-console.log(a);
+// let a  = 10;
+// a++; //11
+// a++; //12
+// a--; //11
+// a--; //10
+// console.log(a);
+
+// ** : 2^3 = 8
+
+console.log(2**3);
+console.log(5**3);
 
