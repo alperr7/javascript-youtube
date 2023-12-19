@@ -53,5 +53,9 @@
   
  */
 
-console.log(12%5);
+// console.log(12%5);
+
+let a  = 10;
+a++;
+console.log(a);
 
