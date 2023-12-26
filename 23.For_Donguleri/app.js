@@ -42,13 +42,5 @@
 // console.log("Toplam : " + toplam);
 
 
-/*---------------------------------------*/
-
-// 1 den 10 ' a kadar yazdıralım 
-let sayac=1;
-while(sayac<=10){
-    console.log(sayac);
-    sayac++;
-}
 
 
