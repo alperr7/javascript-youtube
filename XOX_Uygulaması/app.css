@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; /*öğenin boyutu kutunun boyutu kadar olur */
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    display: flex; /* Flex konteyneri, içindeki öğeleri esnek bir düzende düzenleme yeteneği sunan bir yapı sağlar */
+    flex-direction: column; /*içindeki öğeleri üstten alta doğru sıralar ve yatay düzen yerine dikey bir düzen sağlar. */
+    align-items: center; /*çapraz (cross-axis) yönünde ortalamak için kullanılır. */
+    justify-content: center; /*bir flex konteynerindeki öğeleri ana (main-axis) eksen boyunca ortalamak için kullanılır*/
+    height: 100vh; /*ifadesi, öğenin yüksekliğini viewport yüksekliğinin tamamına eşitleyerek ekranın tamamını kaplamasını sağlar. */
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+   
+}
+
+h1,h2{
+    margin-bottom:5rem; /* Bu, öğenin altındaki diğer öğelerle arasındaki boşluğu kontrol etmenizi sağlar */
+                        /* font boyutunun beş katı kadar bir uzaklık sağlar*/
+    color: white;
+}
+
+.game-container{
+    width: 30rem;
+    height: 30rem;
+    display: grid; /* bir öğenin içeriğini bir ızgara sistemine yerleştirmek için kullanılır*/
+    grid-template-columns: repeat(3,1fr); /*Bu ifade, üç sütunlu bir ızgara oluşturur ve her sütunu eşit genişlikte (1fr) yapar. */
+    grid-template-rows: repeat(3,1fr); /*Bu ifade, üç sütunlu bir ızgara oluşturur ve her satırı eşit genişlikte (1fr) yapar.*/
+    border:1px solid white;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    background-color: #fafafa;
+    user-select: none; /*kullanıcının metni seçmesini engellemek için kullanılır*/
+}
+
+
+.block:hover{
+    border:1px solid  blue;
+}
+
+#error{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    letter-spacing: 4px;
+    color:red;
+}
